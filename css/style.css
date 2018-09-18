@@ -33,6 +33,46 @@ body {
   margin: auto;
   z-index: -2;
 }
+
+.wrapper {
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  top: 13%;
+  display: grid;
+  row-gap: 25px;
+}
+
+.profile {
+  max-width: 450px;
+  width: 70%;
+  padding: 15px;
+  margin: auto;
+  position: relative;
+  grid-row: 1;
+}
+
+.store-info {
+  max-width: 640px;
+  position: relative;
+  width: 85%;
+  margin: auto;
+  display: grid;
+  margin-bottom: 20px;
+}
+
+.location {
+  position: relative;
+  padding: 15px;
+  grid-row: 1;
+}
+
+.operating-hours {
+  position: relative;
+  padding: 15px;
+  grid-row: 2;
+}
 #profile-photo {
   width: 100px;
   height: 100px;
