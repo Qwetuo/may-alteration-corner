@@ -107,4 +107,17 @@ body {
   display: block;
   margin: 15px auto;
 }
+
+.primary-text {
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+.primary-text {
+  font-weight: bolder;
+  margin-bottom: 10px;
+}
+
+.secondary-text {
+  font-weight: lighter;
+  margin-bottom: 5px;
 }
