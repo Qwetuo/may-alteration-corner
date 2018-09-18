@@ -64,13 +64,13 @@ body {
 
 .location {
   position: relative;
-  padding: 15px;
+  padding: 15px 10%;
   grid-row: 1;
 }
 
 .operating-hours {
   position: relative;
-  padding: 15px;
+  padding: 15px 10%;
   grid-row: 2;
 }
 
