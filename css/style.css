@@ -73,6 +73,32 @@ body {
   padding: 15px;
   grid-row: 2;
 }
+
+.profile::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  height: 100%;
+  z-index: -2;
+  opacity: 0.8;
+  background-color: white;
+  border-radius: 25px;
+  filter: blur(3px);
+}
+
+.store-info article::before {
+  position: absolute;
+  content: "";
+  left: 0;
+  right: 0;
+  top: 0;
+  height: 100%;
+  z-index: -1;
+  opacity: 0.8;
+  background-color: rgb(233, 232, 232);
+  filter: blur(1px);
+}
 #profile-photo {
   width: 100px;
   height: 100px;
