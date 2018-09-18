@@ -22,6 +22,17 @@ body {
 
 }
 
+#shop-img {
+  width: 85%;
+  max-width: 640px;
+  max-height: 95%;
+  padding-top: 20px;
+  position: absolute;
+  left: 0;
+  right: 0;
+  margin: auto;
+  z-index: -2;
+}
 #profile-photo {
   width: 100px;
   height: 100px;
