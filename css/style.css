@@ -12,7 +12,6 @@ body {
   background-size: cover;
   content: "";
   background-repeat: no-repeat;
-  background-position: -100px;
   position: fixed;
   will-change: transform;
   width: 100%;
