@@ -162,6 +162,11 @@ body {
     padding-top: 0;
   }
 
+  #shop-img img {
+    display: block;
+    width: 100%;
+  }
+
   .googlemap {
     position: fixed;
     width: 30vw;
