@@ -34,6 +34,11 @@ body {
   z-index: -2;
 }
 
+#shop-img img {
+  display: block;
+  width: 100%;
+}
+
 .wrapper {
   position: absolute;
   left: 0;
