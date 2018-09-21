@@ -132,3 +132,100 @@ body {
   width:100%;
   position:absolute;
 }
+
+@media (min-width: 768px) {
+
+  #background::before {
+    background-position: unset;
+  }
+
+  .wrapper {
+    width: 100%;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: auto;
+    display: grid;
+    grid-template-columns: 30vw 70vw;
+    grid-template-areas:
+      "sidebar content";
+    row-gap: 0px;
+  }
+
+  #shop-img {
+    position: absolute;
+    width: 30vw;
+    top: 0;
+    right: 0;
+    left: 0;
+    margin: 0;
+    padding-top: 0;
+  }
+
+  .googlemap {
+    position: fixed;
+    width: 30vw;
+    max-width: 640px;
+    height:50%;
+    bottom: 0;
+    left: 0;
+    padding-bottom: unset;
+  }
+
+  .profile {
+    position: relative;
+    grid-area: content;
+    background: white;
+    width: 60%;
+    max-width: 690px;
+    min-height: 110px;
+    padding: 15px;
+    top: 70px;
+    right: 0;
+    left:0;
+    margin: 0 auto auto 90px;
+    padding-left: 65px;
+    border-radius: 25px;
+  }
+
+  #profile-photo {
+    position: absolute;
+    left: -50px;
+    top: 0;
+    bottom: 0;
+    margin: auto;
+  }
+
+  .profile::before {
+    bottom: unset;
+    content: none;
+  }
+  
+  .store-info {
+    position: relative;
+    display: inline-grid;
+    grid-area: content;
+    background: white;
+    width: calc(60% + 130px);
+    max-width: 810px;
+    top: 0;
+    margin: 230px auto auto 40px;
+    border-radius: 15px;
+  }
+
+  .store-info article::before {
+    content: none;
+  }
+  
+  .location {
+    padding: 20px 10%;
+    grid-column: 1;
+  }
+  
+  .operating-hours {
+    padding: 20px 10%;
+    grid-column: 2;
+    grid-row: 1
+  }
+
+}
